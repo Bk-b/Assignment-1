@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: #f3f4f6;
+            align-items: center;
+        }
+
+        form{
+            background-color:white;
+            border-radius: 3%;
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+        }
+
+        h2{
+            font-size: 25px;
+            text-align: center;  
+        }
+
+        label{
+            font-size: 18px; 
+        }
+
+        .input{
+            width: 100%;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+        }
+
+        button{
+            width: 100%;
+            color: white;
+            padding: 10px;
+            background-color: rgb(10, 49, 245);
+            border-radius: 5px;
+            border: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>  
+        <h2>Register</h2>  
+        <label for="username">Username</label>  
+        <input class="input" type="text" id="username" name="username" ><br>  
+        <label for="email">Email</label>  
+        <input class="input" type="email" id="email" name="email" >  <br>
+        <label for="password">Password</label>  
+        <input class="input" type="password" id="password" name="password" ><br>  
+            <input type="checkbox" id="terms" name="terms" >  
+            <label for="terms">I agree to the terms and conditions</label>   <br>
+        <button type="submit">Submit</button>  
+    </form>
+
+</body>
+</html>
