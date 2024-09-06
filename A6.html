@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <style>
+        body{
+            background-color: rgb(225, 230, 234);
+            font: Arial,sans-serif;
+        }
+        .header{
+            background-color: rgb(13, 165, 225);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+        }
+
+        nav a{
+            color: rgb(232, 222, 222);
+            text-decoration: none;
+        }
+
+        main{
+            display: flex;
+            margin: 10px;
+        }
+
+        article{
+            width: 80%;
+            background-color: white;
+            border-radius: 5px;
+            margin-right: 15px;
+            padding: 1rem;
+        }
+        
+        aside{
+            width: 20%;
+            background-color: rgb(254, 252, 252);
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        aside a{
+            text-decoration: none;
+            color: black;
+        }
+
+        footer{
+            background-color: rgb(13, 165, 225);
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+
+        footer a{
+            text-decoration: none;
+            color: #75ee8f;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>  
+        <article>  
+            <h1>Welcome Users</h1>  
+            <p>This is a page for semantic HTML elements which includes elements such as- header, nav, main, article, aside, and footer</p>  
+            <p>Semantic elements help improve the accessibility and SEO of your web pages.</p>  
+        </article>  
+        <aside>  
+            <h2>Sidebar Links</h2>  
+            <ul>  
+                <li><a href="#link1">Link 1</a></li>  
+                <li><a href="#link2">Link 2</a></li>  
+                <li><a href="#link3">Link 3</a></li>  
+            </ul>  
+        </aside>  
+    </main>  
+    <footer>  
+        <p>Contact us: <a href="">burhan965@hotmail.com</a></p>  
+    </footer> 
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>HTML Media</title>  
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 20px;  
+            background-color: #f9f9f9;  
+        }  
+        .media-container {  
+            margin-bottom: 40px;
+            margin-left: 20px;  
+        }  
+        h2 {  
+            color: #333;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="media-container">  
+        <h2>Audio Player</h2>  
+        <audio controls>  
+            <source src="#audio-file.mp3" type="audio/mpeg">
+        </audio>  
+        <p>This is an audio player that allows you to play, pause, and control the volume of the audio file.</p>  
+    </div>  
+
+    <div class="media-container">  
+        <h2>Video Player</h2>  
+        <video controls width="600">  
+            <source src="your-video-file.mp4" type="video/mp4">  
+        </video>  
+        <p>This is a video player that enables you to play, pause, and control the playback of the video file.</p>  
+    </div>  
+</body>  
+</html>  
